@@ -1,0 +1,65 @@
+body {
+    font-family: Arial;
+    background: #f4f6f9;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.filters button {
+    padding: 10px;
+    margin: 5px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fav {
+    background: red;
+    color: white;
+}
+
+.compare {
+    background: green;
+    color: white;
+}
+
+.compare-box {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}

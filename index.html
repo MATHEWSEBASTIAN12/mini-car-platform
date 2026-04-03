@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Car Explorer Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚗 Car Explorer Pro</h1>
+
+<input type="text" id="search" placeholder="Search cars..." onkeyup="searchCars()">
+
+<div class="filters">
+    <button onclick="filterCars('all')">All</button>
+    <button onclick="filterCars('sub4m')">Below 4m</button>
+    <button onclick="filterCars('above4m')">Above 4m</button>
+    <button onclick="filterCars('sedan')">Sedans</button>
+    <button onclick="filterCars('suv')">SUVs</button>
+</div>
+
+<h2>Cars</h2>
+<div id="carContainer" class="grid"></div>
+
+<h2>❤️ Favorites</h2>
+<div id="favorites" class="grid"></div>
+
+<h2>📊 Compare</h2>
+<div id="compare" class="compare-box"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
