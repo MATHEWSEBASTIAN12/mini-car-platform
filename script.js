@@ -4,7 +4,13 @@ const cars = [
     {name:"Nexon", price:"₹12L", type:"sub4m", category:"suv", image:"https://via.placeholder.com/200"},
     {name:"Honda City", price:"₹15L", type:"above4m", category:"sedan", image:"https://via.placeholder.com/200"},
     {name:"Creta", price:"₹18L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
-    {name:"XUV700", price:"₹22L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"}
+    {name:"XUV700", price:"₹22L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"kia Seltos", price:"₹21L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"skoda kushaq", price:"₹20L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"renault duster", price:"₹20L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Kia sonet", price:"₹15L", type:"sub4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Wagon R", price:"₹10L", type:"sub4m", category:"hatchback", image:"https://via.placeholder.com/200"},
+    {name:"volkswagen virtus", price:"₹19L", type:"sub4m", category:"sedan", image:"https://via.placeholder.com/200"}
 ];
 
 let favorites = [];
