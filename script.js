@@ -10,7 +10,32 @@ const cars = [
     {name:"renault duster", price:"₹20L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
     {name:"Kia sonet", price:"₹15L", type:"sub4m", category:"suv", image:"https://via.placeholder.com/200"},
     {name:"Wagon R", price:"₹10L", type:"sub4m", category:"hatchback", image:"https://via.placeholder.com/200"},
-    {name:"volkswagen virtus", price:"₹19L", type:"sub4m", category:"sedan", image:"https://via.placeholder.com/200"}
+    {name:"volkswagen golf GTi", price:"₹59L", type:"sub4m", category:"hatchback", image:"https://via.placeholder.com/200"},
+    {name:"volkswagen virtus", price:"₹19L", type:"above4m", category:"sedan", image:"https://via.placeholder.com/200"},
+    {name:"Jeep compass", price:"₹28L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Grand vitara", price:"₹16L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Skoda kylaq", price:"₹11L", type:"sub4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Tata harrier", price:"₹24L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Range Rover velar", price:"₹84L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Range Rover Evoque", price:"₹74L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Range Rover Sport", price:"₹144L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Range Rover Autobiography", price:"₹184L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"}, 
+    {name:"Porsche 911 carrera", price:"₹219L", type:"above4m", category:"sedan", image:"https://via.placeholder.com/200"},
+    {name:"Porsche panamera GT3 rs", price:"₹279L", type:"above4m", category:"sedan", image:"https://via.placeholder.com/200"},
+    {name:"BMW M340i", price:"₹119L", type:"above4m", category:"sedan", image:"https://via.placeholder.com/200"},
+    {name:"BMW x1", price:"₹119L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"BMW x3", price:"₹159L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"BMW 7 series", price:"₹219L", type:"above4m", category:"sedan", image:"https://via.placeholder.com/200"},
+    {name:"Hyundai i20 N-line", price:"₹14L", type:"sub4m", category:"hatchback", image:"https://via.placeholder.com/200"},
+    {name:"Toyota Rav-4", price:"₹31L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Toyota LC 300", price:"₹311L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Mercedes Benz GLS", price:"₹321L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Mercedes Benz AMG G63", price:"₹391L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Mercedes Benz AMG cle 53", price:"₹291L", type:"above4m", category:"sedan", image:"https://via.placeholder.com/200"},
+    {name:"Audi Q3", price:"₹111L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Lexus LX 570", price:"₹315L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"},
+    {name:"Lexus ES", price:"₹215L", type:"above4m", category:"sedan", image:"https://via.placeholder.com/200"},
+    {name:"Kia Carens Clavis", price:"₹25L", type:"above4m", category:"suv", image:"https://via.placeholder.com/200"}
 ];
 
 let favorites = [];
