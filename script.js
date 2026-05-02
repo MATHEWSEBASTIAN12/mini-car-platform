@@ -60,8 +60,10 @@ function displayCars(list) {
 
 function filterCars(type) {
     if(type==="all") displayCars(cars);
-    else if(type==="sedan"||type==="suv")
+    else if(type==="sedan"||type==="suv"||type==="Luxury suv")
         displayCars(cars.filter(c=>c.category===type));
+    else
+        displayCars(cars.filter(c=>c.type===type));
     else
         displayCars(cars.filter(c=>c.type===type));
 }
